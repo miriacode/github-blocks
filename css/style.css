@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(180, 14%, 89%);
+    padding: 15px;
+    font-family: sans-serif;
+}
+
+img{
+    height: 180px;
+}
+
+h1{
+    text-align: center;
+    border-top:3px solid black;
+    padding: 8px;
+    font-size: 2.3rem;
+}
+
+main{
+    background-color: red;
+    margin-left:20px;
+    margin-right:20px;
+}
+
+div{
+    padding: 15px;
+    display: flex;
+}
+
+.box-1{
+    background-color: rgb(229, 158, 237);
+    justify-content: space-between;
+}
+
+.box-2{
+    background-color: hsl(189, 100%, 72%);
+    justify-content: space-evenly;
+}
+
+.box-3{
+    background-color: hsl(78, 92%, 76%);
+    justify-content: space-between;
+}
+
+footer{
+    padding: 17px;
+    text-align: center;
+}
